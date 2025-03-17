@@ -44,7 +44,7 @@ export default function App() {
 
       setTimeout(() => {
         setFlipped([]);
-      }, 5000);
+      }, 4000);
 
       return () => clearTimeout(timer);
     }
